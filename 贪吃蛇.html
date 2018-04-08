@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Keywords" content="贪吃蛇">
+  <title>贪吃蛇</title>
+  <style>
+	.map{
+		width:800px;
+		height:600px;
+		background-color:#ccc;
+		position:relative;
+	}
+  </style>
+ </head>
+ <body>
+  <div class="map"></div>
+  <script src="./food/food.js"></script>
+  <script src="./snake/snake.js"></script>
+  <script src="./game/game.js"></script>
+  <script>
+ 
+
+ 
+ 
+  //初始化游戏
+  var gm=new Game(document.querySelector(".map"));
+  //开始游戏
+  gm.init();
+
+  </script>
+ </body>
+</html>
